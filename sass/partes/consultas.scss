@@ -1,0 +1,24 @@
+.consultorio, .todas-laspreguntas {
+    background-color: aqua;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.todas-laspreguntas {
+        cursor: pointer;
+    }
+
+img {
+    width: 140px;
+    height: 200px;
+}
+
+p {
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+    field-sizing: content;
+    width: 200px;
+}

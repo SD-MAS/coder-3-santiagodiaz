@@ -1,0 +1,122 @@
+.seccion-para-animales {
+    display: grid;
+    grid-template-columns: repeat(2,1f);
+    grid-template-rows: repeat(3,1f);
+    grid-template-areas: "juguetes juguetes"
+                        "alimentos alimentos"
+                        "accesorios accesorios";
+    margin: 0 auto; 
+    min-height: 100vh;
+
+    .juguetes {
+        grid-area: juguetes;
+    }
+    
+    .alimentos {
+        grid-area: alimentos;
+    }
+    
+    .accesorios {
+        grid-area: accesorios;
+    }
+}
+
+
+.todo {
+    display: grid;
+    grid-template-columns: repeat(2,1f);
+    grid-template-rows: 0.1fr auto 0.1fr;
+    grid-template-areas: "navbar navbar"
+                        "main main"
+                        "footer footer";
+    
+    margin: 0 auto; 
+    min-height: 100vh;
+
+    header {
+        grid-area: navbar;
+    }
+    
+    main {
+        grid-area: main;
+    }
+    
+    footer {
+        grid-area: footer;
+    }
+}
+
+.contenido {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "nabvar nabvar"
+                        "enlaces foto";   
+    width: 100%;
+    height: 100vh;
+
+    .header {
+    grid-area: nabvar;
+    display: flex;
+    flex-flow: row;
+    justify-content: end;
+    width: 100%;
+
+    .nav-inicio {
+        display: flex;
+    margin: 0px;
+    padding: 0px;
+
+    .enlace-inicio {
+        color: map-get($colors, blanco);
+        background-color: black;
+    }
+
+    .tipos-producto a {
+        text-decoration: none;
+        padding: 3px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+  }
+
+  .foto-base {
+    grid-area: foto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaeaea; 
+    overflow: hidden; /* Evita que la imagen salga del área asignada */
+
+    .imagen-unica {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
+        object-position: center; /* Centra la imagen dentro de su contenedor */
+    }
+}
+}
+                        
+    .tipos-producto {
+    grid-area: enlaces;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: end;
+    align-items: center;
+    gap: 8px;}
+                        
+    .foto-base {
+    grid-area: foto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: map-get($colors, blanco ); 
+    overflow: hidden; /* Evita que la imagen salga del área asignada */
+}                     
+}
+
+
+
+

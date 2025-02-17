@@ -1,0 +1,95 @@
+.secciones {
+    padding-bottom: map-get($espacios, sm );
+    text-align: center;
+
+    .botones {
+        background-color: map-get($colors , verde-claro);
+        border: 0;
+        border-radius: map-get($espacios, lg);
+        padding: 3px;
+        width: 100%;
+
+        &:hover {
+            padding: map-get($espacios, sm );
+        }
+        &:active {
+            background-color: map-get($colors, rojo);
+        }
+    }
+}
+
+img, video {
+    border-radius: map-get($espacios, lg);
+    vertical-align: top;
+}
+.tipo-de-mascotas {
+    width: auto;
+    height: 150px;
+    background-color: map-get($colors, negro );
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+.solo-fondo {
+    width: 220px;
+    height: 120px;
+    background-color: map-get($colors, rojo );
+    @include border-radius(15px);
+    @include flex-center;
+    .seleccion {
+        width: 160px;
+        height: 100px;
+        @include border-radius(15px);
+        background-color: aqua;
+        @include flex-space-around;
+    }
+}
+}
+.todosservicios {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;   
+
+    .servicios {
+    border: 3px solid map-get($colors, rojo);
+    @include border-radius(15px);
+    @include gradient-bg;
+    @include flex-center;
+    flex-flow: column;
+    margin: 7px;
+    width: 300px;
+    flex-grow: 1;
+    padding: 5px;
+    align-content: flex-end;
+    margin-top: auto;
+    transition: 0.5s linear;
+    animation: servicios 1s linear forwards;
+
+}
+}
+@keyframes servicios {
+    0% {
+        opacity: 0%;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 100%;
+        transform: translateX(0);
+    }
+}
+
+@keyframes servicios {
+    0% {
+        opacity: 0%;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 100%;
+        transform: translateX(0);
+    }
+}
+
+

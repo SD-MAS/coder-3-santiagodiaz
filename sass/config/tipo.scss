@@ -1,0 +1,44 @@
+@mixin body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: map-get($colors, marron );
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-space-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@mixin border-radius($radius) {
+    border-radius: $radius;
+}
+
+@mixin gradient-bg {
+    background-image: linear-gradient(
+        rgb(250, 246, 0), 
+        rgba(25, 150, 0, 0.897), 
+        rgb(255, 255, 255)
+    );
+}
+
+@mixin grid-layout($columns, $rows, $areas) {
+    display: grid;
+    grid-template-columns: $columns;
+    grid-template-rows: $rows;
+    grid-template-areas: $areas;
+    margin: 0 auto;
+    min-height: 100vh;
+  }
+
+@mixin jugutes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}

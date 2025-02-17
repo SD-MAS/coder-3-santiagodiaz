@@ -1,0 +1,12 @@
+
+body {
+    @include body
+}
+
+.text {
+   color: map-get($colors, negro );
+}
+
+.inicio {
+    color: map-get($colors, marron );
+}

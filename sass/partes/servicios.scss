@@ -21,6 +21,8 @@
 img, video {
     border-radius: map-get($espacios, lg);
     vertical-align: top;
+    max-width: 100%;
+    height: auto;
 }
 .tipo-de-mascotas {
     width: auto;

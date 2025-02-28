@@ -413,8 +413,9 @@ textarea {
   }
 }
 iframe {
-  width: 100%;
-  height: auto;
+  padding-bottom: 10px;
+  width: 60%;
+  height: 350px;
   border: none;
 }
 

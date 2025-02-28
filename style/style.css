@@ -366,7 +366,6 @@ textarea {
 @media (max-width: 600px) {
   body {
     font-size: 14px;
-    padding: 10px;
   }
 
   nav {

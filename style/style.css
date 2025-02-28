@@ -412,5 +412,17 @@ textarea {
     grid-template-areas: "nabvar" "enlaces" "foto";
   }
 }
+iframe {
+  width: 100%;
+  height: auto;
+  border: none;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+  iframe {
+    width: 100%;
+    height: 200px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

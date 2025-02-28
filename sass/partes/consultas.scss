@@ -2,8 +2,19 @@
     background-color: aqua;
     border-radius: 15px;
     text-align: center;
+    
+    
 }
 
+.informacion-footer {
+font-size: 25px;
+color: saddlebrown;
+}
+input, select, textarea {
+    background-color: gray;
+    color: white;
+    border-top-right-radius: 15px;
+}
 .todas-laspreguntas {
         cursor: pointer;
     }

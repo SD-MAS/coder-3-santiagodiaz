@@ -5,7 +5,7 @@
     grid-template-areas: "juguetes juguetes"
                         "alimentos alimentos"
                         "accesorios accesorios";
-    margin: 0 auto; 
+    margin: 0; 
     min-height: 100vh;
 
     .juguetes {
@@ -30,7 +30,7 @@
                         "main main"
                         "footer footer";
     
-    margin: 0 auto; 
+    margin: 0; 
     min-height: 100vh;
 
     header {

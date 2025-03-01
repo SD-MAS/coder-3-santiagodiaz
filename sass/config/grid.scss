@@ -105,16 +105,7 @@
     align-items: self-start;
     justify-content: end;
     align-items: center;
-    gap: 8px;}
-                        
-    .foto-base {
-    grid-area: foto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: map-get($colors, blanco ); 
-    overflow: hidden; /* Evita que la imagen salga del área asignada */
-}                     
+    gap: 8px;}              
 }
 
 

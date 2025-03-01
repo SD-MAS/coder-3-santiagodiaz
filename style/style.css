@@ -44,6 +44,8 @@ body {
   max-width: 800px;
   padding: 0 20px;
   margin: 0 auto;
+  padding-right: 35px;
+  padding-left: 35px;
 }
 
 .inicio {
@@ -58,19 +60,6 @@ body {
 .secciones {
   padding-bottom: 5px;
   text-align: center;
-}
-.secciones .botones {
-  background-color: #88B04B;
-  border: 0;
-  border-radius: 15px;
-  padding: 3px;
-  width: 100%;
-}
-.secciones .botones:hover {
-  padding: 5px;
-}
-.secciones .botones:active {
-  background-color: red;
 }
 
 img, video {
@@ -179,11 +168,6 @@ textarea {
   width: 200px;
 }
 
-.text {
-  padding-right: 35px;
-  padding-left: 35px;
-}
-
 .seccion-para-animales {
   display: grid;
   grid-template-columns: repeat(2, 1f);
@@ -277,15 +261,6 @@ textarea {
   align-items: center;
   gap: 8px;
 }
-.contenido .foto-base {
-  grid-area: foto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #eaeaea;
-  overflow: hidden;
-  /* Evita que la imagen salga del área asignada */
-}
 
 .juguetes, .alimentos, .accesorios {
   display: flex;
@@ -339,17 +314,6 @@ textarea {
 .enlace-inicio {
   color: aliceblue;
   background-color: black;
-}
-
-.tipos-producto {
-  grid-area: enlaces;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: self-start;
-  justify-content: end;
-  align-items: center;
-  gap: 8px;
 }
 
 @media (min-width: 600px) {

@@ -4,10 +4,12 @@ body {
 }
 
 .text {
-   color: map-get($colors, negro );
-   max-width: 800px; 
-  padding: 0 20px; 
-  margin: 0 auto; 
+    color: map-get($colors, negro );
+    max-width: 800px; 
+    padding: 0 20px; 
+    margin: 0 auto; 
+    padding-right: 35px;
+    padding-left: 35px;
 }
 
 .inicio {
@@ -17,4 +19,4 @@ body {
 .carousel {
     max-width: 400px; 
     width: 90%; 
-  }
+}

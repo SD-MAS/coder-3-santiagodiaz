@@ -2,20 +2,6 @@
     padding-bottom: map-get($espacios, sm );
     text-align: center;
 
-    .botones {
-        background-color: map-get($colors , verde-claro);
-        border: 0;
-        border-radius: map-get($espacios, lg);
-        padding: 3px;
-        width: 100%;
-
-        &:hover {
-            padding: map-get($espacios, sm );
-        }
-        &:active {
-            background-color: map-get($colors, rojo);
-        }
-    }
 }
 
 img, video {

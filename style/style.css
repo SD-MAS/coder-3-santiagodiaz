@@ -57,6 +57,13 @@ body {
   width: 90%;
 }
 
+iframe {
+  padding-bottom: 10px;
+  width: 60%;
+  height: 350px;
+  border: none;
+}
+
 .secciones {
   padding-bottom: 5px;
   text-align: center;
@@ -375,13 +382,6 @@ textarea {
     grid-template-areas: "nabvar" "enlaces" "foto";
   }
 }
-iframe {
-  padding-bottom: 10px;
-  width: 60%;
-  height: 350px;
-  border: none;
-}
-
 @media (min-width: 320px) and (max-width: 600px) {
   iframe {
     width: 100%;

@@ -281,11 +281,15 @@ textarea {
   width: 100%;
 }
 
-.productos {
+.seccion-para-animales {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.seccion-para-animales .productos {
   display: flex;
   flex-flow: wrap;
 }
-.productos .servicios {
+.seccion-para-animales .productos .servicios {
   border: 3px solid red;
   border-radius: 15px;
   display: flex;

@@ -11,9 +11,14 @@
     
 }
 
-.productos {
+.seccion-para-animales {
+    max-width: 800px; 
+    margin: 0 auto; 
+    
+    .productos {
     display: flex;
     flex-flow: wrap;
+    
 
     .servicios {
         border: 3px solid red;
@@ -33,3 +38,5 @@
         animation: servicios 1s linear forwards;
         }
 }
+}
+

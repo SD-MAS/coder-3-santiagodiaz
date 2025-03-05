@@ -13,4 +13,4 @@
 
 ### Frontend:
 - HTML
-- SCSS (para un manejo más eficiente del CSS)
+- SCSS
